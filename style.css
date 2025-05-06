@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #ffffff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #002244;
+    color: white;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    
+  }
+  h1{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .hero {
+    /* background-image: url('my2.jpg'); */
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .card {
+    background: #e9e9e9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 40vh;
+    box-shadow: 10px black;
+     
+  }
+  .card a{
+    text-decoration: none;
+    color: black;
+  }
+  .card img{
+       border-radius: 10px;
+  }
+  footer {
+    background: #002244;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+      
+  .dots {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+  }
+  .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
+  .dot.active {
+    background-color: white;
+  }  
+  #main-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ;
+    min-height: 100vh;
+    position: relative;
+  }
+  
